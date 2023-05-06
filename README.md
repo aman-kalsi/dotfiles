@@ -1,2 +1,2 @@
 # zshell
-Persisting my zshell configurations.
+Persisting my zshell configuration.
