@@ -1,0 +1,9 @@
+# ignore everything
+*
+
+# dont ignore these though
+!.gitignore
+!.zsh_aliases
+!.zlogout
+!.zprofile
+!.zshrc
