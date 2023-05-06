@@ -14,7 +14,7 @@ source .zsh_aliases
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 COMPLETION_WAITING_DOTS="%F{yellow}holdup...%f"
 
-plugins=(git)
+plugins=(git tmux)
 source $ZSH/oh-my-zsh.sh
 
 # ocaml opam config
