@@ -8,8 +8,9 @@
 !.zprofile
 !.zshrc
 
-# this is how we specifically exclude a specific directory
+# this is how we un-ignore a specific directory
 # (source: https://stackoverflow.com/questions/44568184/gitignore-everything-except-a-subfolder-with-every-content)
-!.config
+!.config/
 .config/*
 !.config/nvim/
+.config/nvim/plugin/
