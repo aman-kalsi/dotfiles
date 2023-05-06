@@ -22,3 +22,5 @@ Install the following (with brew unless otherwise specified):
 ## powerlevel10k
 Get setup with: https://github.com/romkatv/powerlevel10k
 
+## tmux
+Get setup with: https://github.com/tmux/tmux/wiki
