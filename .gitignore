@@ -1,5 +1,5 @@
-# ignore everything
-*
+# ignore everything in the current directory, EXCLUDING the current directory since we need it to exclude further sub-directories
+/*
 
 # dont ignore these though
 !.gitignore
@@ -10,7 +10,6 @@
 
 # this is how we specifically exclude a specific directory
 # (source: https://stackoverflow.com/questions/44568184/gitignore-everything-except-a-subfolder-with-every-content)
-!.config/
+!.config
 .config/*
 !.config/nvim/
-
