@@ -1,6 +1,3 @@
-# zshell
-Persisting my zshell configuration.
-=======
 # dotfiles
 Persisting my dotfile configurations for easy access on any machine
 
