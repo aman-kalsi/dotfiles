@@ -1,13 +1,13 @@
 # dotfiles
 Persisting my dotfile configurations for easy access on any machine
 
-## brew
+## Brew
 Get setup with: https://brew.sh/
 
 ## oh-my-zsh
 Get setup with: https://github.com/ohmyzsh
 
-## nvim
+## Neovim
 As of the creation of this repo, you will need to take the following steps to get setup with this configuration of nvim.
 
 Install the following (with brew unless otherwise specified):
@@ -24,3 +24,6 @@ Get setup with: https://github.com/romkatv/powerlevel10k
 
 ## tmux
 Get setup with: https://github.com/tmux/tmux/wiki
+
+## GlazeVM
+Get setup with: https://github.com/lars-berger/GlazeWM
