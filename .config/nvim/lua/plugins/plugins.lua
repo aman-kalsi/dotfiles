@@ -47,9 +47,6 @@ return require('packer').startup(function(use)
 	-- used for git
 	use 'tpope/vim-fugitive'
 
-	-- for nice tabs
-	use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
-
 	if packer_bootstrap then
 		require('packer').sync()
 	end
