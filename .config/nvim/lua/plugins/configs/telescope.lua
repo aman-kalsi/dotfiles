@@ -8,6 +8,7 @@ require('telescope').setup{
 			theme = "dropdown",
 		},
 		buffers = {
+			theme = "dropdown",
 			show_all_buffers = true,
 			mappings = {
 				i = {
