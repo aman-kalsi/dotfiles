@@ -14,7 +14,7 @@ Install the following (with brew unless otherwise specified):
 * neovim
 * ripgrep
 * The following LSPs ([ref list](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md) for more details): 
-    * jedi-language-server (with pip)
+    * pyright (with pip)
     * lua-language-server
     * ocaml-lsp-server (with opam)
     * typescript-language-server

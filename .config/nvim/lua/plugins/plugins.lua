@@ -44,9 +44,13 @@ return require('packer').startup(function(use)
 	use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
 	use 'L3MON4D3/LuaSnip' -- Snippets plugin
 
-	-- used for git
-	use 'tpope/vim-fugitive'
-
+	-- used for multiline commenting
+	use {
+		'numToStr/Comment.nvim',
+		config = function()
+			require('Comment').setup()
+		end
+	}
 	if packer_bootstrap then
 		require('packer').sync()
 	end

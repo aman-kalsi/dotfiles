@@ -1,6 +1,6 @@
 -- Setup language servers
 local lspconfig = require('lspconfig')
-lspconfig.jedi_language_server.setup({})
+lspconfig.pyright.setup({})
 lspconfig.tsserver.setup({})
 lspconfig.lua_ls.setup({
 	settings = {
@@ -27,7 +27,7 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 -- luasnip setup
 local luasnip = require('luasnip')
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'lua_ls', 'jedi_language_server', 'tsserver', 'ocamllsp' }
+local servers = { 'lua_ls', 'pyright', 'tsserver', 'ocamllsp' }
 for _, lsp in ipairs(servers) do
 	lspconfig[lsp].setup {
 		capabilities = capabilities,
