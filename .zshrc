@@ -5,6 +5,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# add US locale
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
 export PATH=$(echo "$PATH" | sed -e 's/:\/mnt[^:]*//g') # strip out problematic Windows %PATH%
 export PATH="/home/amank98/.local/bin:usr/local/bin:$PATH"
 
@@ -16,6 +20,9 @@ COMPLETION_WAITING_DOTS="%F{yellow}holdup...%f"
 
 plugins=(git tmux)
 source $ZSH/oh-my-zsh.sh
+
+# postgres db data directory
+export PGDATA="/usr/local/pgsql/data"
 
 # ocaml opam config
 [[ ! -r /home/amank98/.opam/opam-init/init.zsh ]] || source /home/amank98/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
