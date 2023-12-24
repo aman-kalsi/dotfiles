@@ -21,9 +21,6 @@ COMPLETION_WAITING_DOTS="%F{yellow}holdup...%f"
 plugins=(git tmux)
 source $ZSH/oh-my-zsh.sh
 
-# postgres db data directory
-export PGDATA="/usr/local/pgsql/data"
-
 # ocaml opam config
 [[ ! -r /home/amank98/.opam/opam-init/init.zsh ]] || source /home/amank98/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
