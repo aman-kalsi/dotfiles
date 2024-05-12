@@ -14,9 +14,8 @@ local packer_bootstrap = ensure_packer()
 return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 
-	-- dev-icons used for lualine and nvm-tree
+	-- dev-icons for nvm-tree
 	use 'nvim-tree/nvim-web-devicons'
-	use 'nvim-lualine/lualine.nvim'
 	use 'nvim-tree/nvim-tree.lua'
 
 	-- theme
