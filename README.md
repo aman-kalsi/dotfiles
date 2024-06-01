@@ -25,5 +25,3 @@ Get setup with: https://github.com/romkatv/powerlevel10k
 ## tmux
 Get setup with: https://github.com/tmux/tmux/wiki
 
-## GlazeVM
-Get setup with: https://github.com/lars-berger/GlazeWM
