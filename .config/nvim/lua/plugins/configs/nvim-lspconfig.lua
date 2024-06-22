@@ -1,14 +1,10 @@
 -- Setup language servers
 local lspconfig = require('lspconfig')
-lspconfig.pyright.setup({})
+
+-- tsserver setup
 lspconfig.tsserver.setup({})
-lspconfig.lua_ls.setup({
-	settings = {
-		diagnostics = {
-			globals = { 'vim' },
-		}
-	}
-})
+lspconfig.lua_ls.setup({})
+lspconfig.pyright.setup({})
 lspconfig.ocamllsp.setup({})
 
 --lsp mappings
