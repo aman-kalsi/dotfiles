@@ -6,6 +6,7 @@ lspconfig.tsserver.setup({})
 lspconfig.lua_ls.setup({})
 lspconfig.pyright.setup({})
 lspconfig.ocamllsp.setup({})
+lspconfig.rust_analyzer.setup({})
 
 --lsp mappings
 vim.api.nvim_create_autocmd('LspAttach', {
@@ -22,7 +23,7 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 -- luasnip setup
 local luasnip = require('luasnip')
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'lua_ls', 'pyright', 'tsserver', 'ocamllsp' }
+local servers = { 'lua_ls', 'pyright', 'tsserver', 'ocamllsp', 'rust_analyzer' }
 for _, lsp in ipairs(servers) do
 	lspconfig[lsp].setup {
 		capabilities = capabilities,
