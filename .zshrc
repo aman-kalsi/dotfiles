@@ -30,3 +30,6 @@ export NVM_DIR="/home/amank98/.nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# To use vim in command line
+set -o vi
