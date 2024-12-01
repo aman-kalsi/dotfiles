@@ -1,8 +1,8 @@
 -- Setup language servers
 local lspconfig = require('lspconfig')
 
--- tsserver setup
-lspconfig.tsserver.setup({})
+-- lsp server setup
+lspconfig.ts_ls.setup({})
 lspconfig.lua_ls.setup({})
 lspconfig.pyright.setup({})
 lspconfig.ocamllsp.setup({})
@@ -23,7 +23,7 @@ local capabilities = require("cmp_nvim_lsp").default_capabilities()
 -- luasnip setup
 local luasnip = require('luasnip')
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'lua_ls', 'pyright', 'tsserver', 'ocamllsp', 'rust_analyzer' }
+local servers = { 'lua_ls', 'pyright', 'ts_ls', 'ocamllsp', 'rust_analyzer' }
 for _, lsp in ipairs(servers) do
 	lspconfig[lsp].setup {
 		capabilities = capabilities,
