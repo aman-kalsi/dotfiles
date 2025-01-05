@@ -26,3 +26,5 @@ Get setup with: https://github.com/romkatv/powerlevel10k
 ## tmux
 Get setup with: https://github.com/tmux/tmux/wiki
 
+## Enable copying in Windows
+Ensure you have win32yank.exe installed in the usr/local/bin folder with the exe permission for the code in init.lua to work properly
