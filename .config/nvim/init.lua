@@ -2,8 +2,6 @@ require('global_settings')
 require('plugins')
 
 -- Enable copying from WSL to windows clipboard - need clip.exe in usr/local/bin folder for this to work properly
--- Needed to automatically couple the + register to copy and pastes
-vim.opt.clipboard:append("unnamedplus")
 vim.g.clipboard = {
     name = "clip-wsl",
     copy = {

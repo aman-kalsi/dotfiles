@@ -27,4 +27,4 @@ Get setup with: https://github.com/romkatv/powerlevel10k
 Get setup with: https://github.com/tmux/tmux/wiki
 
 ## Enable copying in Windows
-Custom clipboard config was added in init.lua. Uses underlying Windows copy.exe for copying and powershell.exe for pasting.
+Custom clipboard config was added in init.lua. Uses underlying Windows copy.exe for copying and powershell.exe for pasting. Use "*y or "+y to specifically copy to Windows clipboard.
