@@ -2,7 +2,6 @@ require('global_settings')
 require('plugins')
 
 -- Enable copying from WSL to windows clipboard - need win32yank.exe in usr/local/bin folder with x permission for this to work properly.
-vim.opt.clipboard:append("unnamedplus")
 vim.g.clipboard = {
     name = "win32yank-wsl",
     copy = {
