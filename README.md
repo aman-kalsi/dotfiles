@@ -27,4 +27,4 @@ Get setup with: https://github.com/romkatv/powerlevel10k
 Get setup with: https://github.com/tmux/tmux/wiki
 
 ## Enable copying in Windows
-Ensure you have win32yank.exe installed in the usr/local/bin folder with the exe permission for the code in init.lua to work properly. Can copy text with either "+y or "*y depending on the register we would like to use
+Custom clipboard config was added in init.lua. Can copy text with either "+y or "*y depending on the register we would like to use

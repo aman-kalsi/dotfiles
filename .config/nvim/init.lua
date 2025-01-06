@@ -1,16 +1,16 @@
 require('global_settings')
 require('plugins')
 
--- Enable copying from WSL to windows clipboard - need win32yank.exe in usr/local/bin folder with x permission for this to work properly.
+-- Enable copying from WSL to windows clipboard - need clip.exe in usr/local/bin folder for this to work properly
 vim.g.clipboard = {
-    name = "win32yank-wsl",
+    name = "clip-wsl",
     copy = {
-        ["*"] = "win32yank.exe -i --crlf",
-        ["+"] = "win32yank.exe -i --crlf",
+        ["*"] = "../../../../mnt/c/Windows/System32/clip.exe",
+        ["+"] = "../../../../mnt/c/Windows/System32/clip.exe",
     },
     paste = {
-        ["*"] = "win32yank.exe -o --lf",
-        ["+"] = "win32yank.exe -o --lf",
+        ["*"] = "../../../../mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -command Get-Clipboard",
+        ["+"] = "../../../../mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -command Get-Clipboard",
     },
     cache_enabled = 0,
 }
