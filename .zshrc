@@ -33,3 +33,4 @@ export NVM_DIR="/home/amank98/.nvm"
 
 # To use vim in command line
 set -o vi
+source ~/powerlevel10k/powerlevel10k.zsh-theme

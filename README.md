@@ -1,6 +1,8 @@
 # dotfiles
 Persisting my dotfile configurations for easy access on any machine
 
+Be sure to pull this repo as a bare repo and then checkout the contents to $HOME so that all git metadata stays within the .dotfiles cloned folder while the actual dot files stay within the $HOME directory
+
 ## Brew
 Get setup with: https://brew.sh/
 

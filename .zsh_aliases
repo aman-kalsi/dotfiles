@@ -1,2 +1,5 @@
 alias activate-venv="source .venv/bin/activate"
+# Alias for managing dotfiles Git repo stored as a bare repo in ~/.dotfiles
+# while keeping the actual working files directly in home directory ($HOME)
+alias git-dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
